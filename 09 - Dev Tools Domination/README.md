@@ -49,11 +49,11 @@ Using console groups allows you neaten out console messages by grouping them tog
 ```js
 console.groupCollapsed("groupname");
 // log messages here
-console.groupEnd("groupname");
+console.groupEnd();
 ```
 
 - `console.groupCollapsed(groupname)` : begins a group with the specified group name.
-- `console.groupEnd(groupname)` : ends the specified group, closing the toggle.
+- `console.groupEnd()` : ends the most recent group, closing the toggle.
 
 ### Timing
 
